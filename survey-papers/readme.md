@@ -47,9 +47,13 @@ The specific approaches of machine unlearning can be categorized into **model-ag
 **Differential Privacy.** Differential privacy was first proposed to bound a data sample’s influence on a machine learning model. $\epsilon$-differential privacy unlearns a data sample by setting $\epsilon$ = 0, where $\epsilon$ bounds the level of change in any model parameters affected by that data sample. However, Bourtoule et al. notes that the algorithm cannot learn from the training data in such a case.
 
 Gupta et el. [62] proposed a differentially private unlearning mechanism for streaming data removal requests. These requests are adaptive as well, meaning the data to be removed depends on the current unlearned model. The idea, which is based on differential privacy, can be roughly formulated as:
+
+
 $$
 Pr(U (D, s, A(D)) \in T ) ≤  e^{\epsilon} Pr (A(D \backslash s) \in T ) + \beta
 $$
+
+
 for all adaptive removal sequences $s = (z_1, ..., z_k)$. One weakness of this condition is that it only guarantees the upper bound of the unlearning scheme compared to full retraining. However, its strength is that it supports a user’s belief that the system has engaged in full retraining. Finally, an unlearning process is developed by a notion of differentially private publishing functions and a theoretical reduction from adaptive to non-adaptive sequences. Differentially private publishing functions guarantee that the model before and after an unlearning request do not differ too much.
 
 **Certified Removal Mechanisms.** Unlearning algorithms falling into this category are the ones following the original approximate definition of machine unlearning [55, 59]. While Guo et al. focus on theoretical guarantees for linear models and convex losses, Golatkar et al. [55] introduce a computable upper bound for SGD-based learning algorithms, especially deep neural networks. The core idea is based on the notion of perturbation (noise) to mask the small residue incurred by the gradient-based update (e.g., a one-step Newton update [82]). The idea is applicable to other cases,
