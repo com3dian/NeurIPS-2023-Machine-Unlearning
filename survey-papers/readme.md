@@ -36,13 +36,13 @@ The main problem addressed in the paper is that simply deleting data from backen
 
 ### 5. UNLEARNING ALGORITHMS
 
-<img src="/home/com3dian/Github/NeurIPS-2023-Machine-Unlearning/pictures/Screenshot from 2023-09-18 18-56-09.png" alt="Screenshot from 2023-09-18 18-56-09" style="zoom:33%;" />
+<img src="./pictures/Screenshot from 2023-09-18 18-56-09.png" alt="Screenshot from 2023-09-18 18-56-09" style="zoom:33%;" />
 
 The specific approaches of machine unlearning can be categorized into **model-agnostic**, **model-intrinsic**, and **data-driven** approaches.
 
 #### 5.1 Model-Agnostic Approaches
 
-![methods_table](/home/com3dian/Github/NeurIPS-2023-Machine-Unlearning/pictures/methods_table.png)
+![methods_table](./pictures/methods_table.png)
 
 **Differential Privacy.** Differential privacy was first proposed to bound a data sample’s influence on a machine learning model. $\epsilon$-differential privacy unlearns a data sample by setting $\epsilon$ = 0, where $\epsilon$ bounds the level of change in any model parameters affected by that data sample. However, Bourtoule et al. notes that the algorithm cannot learn from the training data in such a case.
 
