@@ -69,3 +69,33 @@ sup
 Δ(𝐴(𝐷), 𝐴(𝐷 )) ≤ 𝜌
 where Δ(.) is the largest possible difference between the two probabilities such that they can assign to the same event, aka total variance distance [158]. This is also a special case of the optimal transportation cost between two probability distributions [86]. In other words, a learning algorithm 𝐴(.) is said to be 𝜌-TV-stable if given any two training datasets 𝐷 and 𝐷 ′ , as long as they have 1 common data item, the cost of transporting from the model distribution 𝐴(𝐷) to 𝐴(𝐷 ′ ) is bounded by 𝜌. For any 1/𝑛 ≤ 𝜌 < ∞, Ullah et al. [156] proved that there exists an unlearning process that satisfies exact unlearning at any time in the streaming removal request while the model accuracy and the unlearning time are bounded
 w.r.t. $Q$.
+
+...
+
+(this part to be finished)
+
+### 6. PUBLISHED RESOURCES ON MACHINE UNLEARNING
+
+#### 6.1 Published Unlearning Algorithms
+
+Some implementations of algorithms and models are available that have contributed to baseline experiments in machine unlearning. A summary of published implementations, including their language and platform details, the corresponding models, and URLs to their code repositories, are presented in Table 4.
+
+
+
+| Unlearning Algorithms | Language | Platform | Applicable ML Models | Code Repository                                          |
+| --------------------- | -------- | -------- | -------------------- | -------------------------------------------------------- |
+| SISA                  | Python   |          | Model-agnostic       | https://github.com/cleverhans-lab/machine-unlearning     |
+| Athena                | Python   |          | Model-agnostic       | https://github.com/inspire-group/unlearning-verification |
+| AmnesiacML            | Python   |          | Model-agnostic       | https://github.com/lmgraves/AmnesiacML                   |
+| Kpriors               | Python   | Pytorch  | Model-agnostic       | https://github.com/team-approx-bayes/kpriors             |
+| ERM                   | Python   |          | Model-agnostic       | https://github.com/ChrisWaites/descent-to-delete         |
+| ShallowAttack         | Python   | Pytorch  | Model-agnostic       | https://github.com/MinChen00/UnlearningLeaks             |
+| UnrollingSGD          | Python   |          | Model-agnostic       | https://github.com/cleverhans-lab/unrolling-sgd          |
+| DeltaGrad             | Python   |          | Model-agnostic       | https://github.com/thuwuyinjun/DeltaGrad                 |
+| Amnesia               | Rust     |          | Model-agnostic       | https://github.com/schelterlabs/projects-amnesia         |
+| L-CODEC               | Python   | Pytorch  | Deep learning        | https://github.com/vsingh-group/LCODEC-deep-unlearning   |
+| SelectiveForgetting   | Python   |          | Deep learning        | https://github.com/AdityaGolatkar/SelectiveForgetting    |
+| Neurons               | Python   |          | Deep learning        | https://github.com/Hunter-DDM/knowledge-neurons          |
+| Unlearnable           | Python   |          | Deep learning        | https://github.com/HanxunH/Unlearnable-Examples          |
+| DLMA                  | Python   |          | Deep learning        | https://github.com/AnonymousDLMA/MI_with_DA              |
+
