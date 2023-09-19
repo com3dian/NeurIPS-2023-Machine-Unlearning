@@ -1,5 +1,7 @@
 # NeurIPS-2023-Machine-Unlearning
-Repo for NIPS 2023 competition.
+Repo for NIPS 2023 competition. 
+
+[Starting kit](https://github.com/unlearning-challenge/starting-kit/blob/main/unlearning-CIFAR10.ipynb)
 
 ## Task
 
