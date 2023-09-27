@@ -13,13 +13,13 @@ The competition considers a realistic scenario in which an **age predictor** has
 
 ## Week 1 - Sep 19 note
 
-Team members: **Zehao** added! **Parsa** added 
+Team members: **Zehao** added! **Parsa** added!
 
 **Todos:** 
 
-- **Survey papers** and notes (<span style="color:orange">Zehao Lu</span>)
+- **Survey papers** :white_check_mark: and notes (<span style="color:orange">Zehao Lu</span>)
 
-- **Metrics papers** and notes (<span style="color:orange">Zehao Lu</span>)
+- **Metrics papers** :white_check_mark: and notes (<span style="color:orange">Zehao Lu</span>)
 
 - Make a **first submission** (no need for designing the unlearning algorithm) (<span style="color:blue">Parsa</span>)
 
