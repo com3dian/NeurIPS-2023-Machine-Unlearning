@@ -63,13 +63,6 @@ More precisely, certified removal mechanisms mainly accommodate those linear mod
 
 Ullah et al. [156] continued studying machine unlearning in the context of SGD and streaming removal requests. They define the notation of total variation stability for a learning algorithm:
 
-sup
-𝐷,𝐷 ′ : |𝐷\𝐷 ′ |+ |𝐷 ′ \𝐷 |
-′
-Δ(𝐴(𝐷), 𝐴(𝐷 )) ≤ 𝜌
-where Δ(.) is the largest possible difference between the two probabilities such that they can assign to the same event, aka total variance distance [158]. This is also a special case of the optimal transportation cost between two probability distributions [86]. In other words, a learning algorithm 𝐴(.) is said to be 𝜌-TV-stable if given any two training datasets 𝐷 and 𝐷 ′ , as long as they have 1 common data item, the cost of transporting from the model distribution 𝐴(𝐷) to 𝐴(𝐷 ′ ) is bounded by 𝜌. For any 1/𝑛 ≤ 𝜌 < ∞, Ullah et al. [156] proved that there exists an unlearning process that satisfies exact unlearning at any time in the streaming removal request while the model accuracy and the unlearning time are bounded
-w.r.t. $Q$.
-
 ...
 
 (this part to be finished)
@@ -99,3 +92,12 @@ Some implementations of algorithms and models are available that have contribute
 | Unlearnable           | Python   |          | Deep learning        | https://github.com/HanxunH/Unlearnable-Examples          |
 | DLMA                  | Python   |          | Deep learning        | https://github.com/AnonymousDLMA/MI_with_DA              |
 
+
+
+## Note on Nguyen-2022-survey
+
+### Approximate Unlearning
+
+**First Group** The first group updates the machine learning model by retraining it with the remaining data and injecting optimal noise based on the principle of the Fisher information matrix [47] to control the certifiability.
+
+**Second Group** The second group updates the machine learning model with the deleted data during the unlearning, they perform Newton’s method [51] to estimate the impact of the deleted data on the model and remove it. The work [21] attempted approximate retraining by taking a single Newton’s step.
