@@ -23,4 +23,4 @@ Team members: **Zehao** added! **Parsa** added!
 
 - Make a **first submission** (no need for designing the unlearning algorithm) (<span style="color:blue">Parsa</span>)
 
-- Check **regulations about submission** like how many submits are allowed for a day and how many submission allowed in total (<span style="color:blue">Parsa</span>)
+- Check **regulations about submission** like how many submits are allowed for a day and how many submission allowed in total :white_check_mark: (<span style="color:blue">Parsa</span>)
