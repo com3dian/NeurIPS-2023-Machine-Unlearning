@@ -21,7 +21,7 @@ Team members: **Zehao** added! **Parsa** added!
 
 - **Metrics papers** :white_check_mark: and notes (<span style="color:orange">Zehao Lu</span>)
 
-- Make a **first submission** (no need for designing the unlearning algorithm) (<span style="color:blue">Parsa</span>)
+- Make a **first submission** (no need for designing the unlearning algorithm) (<span style="color:blue">Parsa</span>) (<span style="color:orange">Zehao Lu</span>)
 
 - Check **regulations about submission** like how many submits are allowed for a day and how many submission allowed in total :white_check_mark: (<span style="color:blue">Parsa</span>)
 
