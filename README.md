@@ -47,6 +47,7 @@ Team members: **![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu**
 * DLMA - ![#E9B824](https://placehold.co/15x15/E9B824/E9B824.png) Parsa.
 * Unlearnable examples - ![#219C90](https://placehold.co/15x15/219C90/219C90.png) Lu.
 * SelectiveForgetting - ![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu.
+* Selective Synaptic Dampening - ![#EF6262](https://placehold.co/15x15/EF6262/EF6262.png) Yahan
 * (Bonus) one another teammates!
 
 
