@@ -52,3 +52,15 @@ Team members: **![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu**
 
 
 
+## Week 5 - Oct 14 note
+
+**Todos:**
+
+- Work on chosen papers independently and submit solutions (![#219C90](https://placehold.co/15x15/219C90/219C90.png) Lu, ![#E9B824](https://placehold.co/15x15/E9B824/E9B824.png) Parsa, ![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu, ![#EF6262](https://placehold.co/15x15/EF6262/EF6262.png) Yahan).
+- PUMA - ![#219C90](https://placehold.co/15x15/219C90/219C90.png) Lu.
+- Bad teacher/Amnesiac - ![#EF6262](https://placehold.co/15x15/EF6262/EF6262.png) Yahan.
+- Fisher - ![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu.
+- External expert - ![#219C90](https://placehold.co/15x15/219C90/219C90.png) Lu.
+
+
+
