@@ -9,6 +9,7 @@ Repo for NIPS 2023 competition.
 - ![#E9B824](https://placehold.co/15x15/E9B824/E9B824.png) Parsa
 - ![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu
 - ![#EF6262](https://placehold.co/15x15/EF6262/EF6262.png) Yahan
+- ![#D2DE32](https://placehold.co/15x15/D2DE32/D2DE32.png) Yufang
 
 
 ## Task
