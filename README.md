@@ -63,5 +63,12 @@ Team members: **![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu**
 - Fisher - ![#337CCF](https://placehold.co/15x15/337CCF/337CCF.png) Xinyu.
 - External expert - ![#219C90](https://placehold.co/15x15/219C90/219C90.png) Lu.
 
+## Hyperparameter for the simple model
+          	Lr	Epoch	Momentum
+Version 2 	0.5	9	    0.9
+version 4	  0.5	6    	0.9
+version 6	  0.7	9    	0.9
+version 7	  0.6	8	    0.9
+![image](https://github.com/com3dian/NeurIPS-2023-Machine-Unlearning/assets/23715625/f8a994ca-5cdd-4cfc-aed9-06c039938d24)
 
 
